@@ -3,17 +3,34 @@
   "version": "5.0.0",
   "description": "nodezoo.com microservice handling npm updates.",
   "main": "npm-update.js",
+  "keywords": [
+    "nodezoo",
+    "seneca",
+    "info",
+    "microservice"
+  ],
+  "scripts": {
+    "start": "node npm-update.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nodezoo/nodezoo-updater.git"
+  },
   "author": "Richard Rodger (http://richardrodger.com)",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nodezoo/nodezoo-updater/issues"
+  },
+  "homepage": "https://github.com/nodezoo/nodezoo-updater",
   "dependencies": {
     "async": "^1.4.2",
     "follow": "^0.12.1",
     "npm-stats": "^1.1.0",
     "seneca-beanstalk-transport": "^0.2.1",
     "seneca-level-store": "^0.2.3",
-    "seneca": "https://github.com/senecajs/seneca",
-    "seneca-msgstats": "https://github.com/rjrodger/seneca-msgstats",
-    "seneca-mesh": "https://github.com/rjrodger/seneca-mesh",
-    "seneca-balance-client": "https://github.com/rjrodger/seneca-balance-client"
+    "seneca": "3.4.2",
+    "seneca-msgstats": "0.2.0",
+    "seneca-mesh": "0.11.0",
+    "seneca-balance-client": "0.6.1"
   }
 }
